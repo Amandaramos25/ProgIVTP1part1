@@ -2,28 +2,28 @@ package LeituraCSV;
 public class Musica {
     private String nome_musica;
     private String nome_artista;
-    private double numero_artistas;
-    private double ano_lancado;
-    private double mes_lancado;
-    private double dia_lancado;
-    private double spotify_numero_playlist;
-    private double spotify_ranking;
-    private double streams;
-    private double apple_numero_playlist;
-    private double apple_ranking;
-    private double deezer_numero_playlist;
-    private double deezer_ranking;
-    private double shazam_ranking;
-    private double bpm;
+    private int numero_artistas;
+    private int ano_lancado;
+    private int mes_lancado;
+    private int dia_lancado;
+    private int spotify_numero_playlist;
+    private int spotify_ranking;
+    private int streams;
+    private int apple_numero_playlist;
+    private int apple_ranking;
+    private int deezer_numero_playlist;
+    private int deezer_ranking;
+    private int shazam_ranking;
+    private int bpm;
     private String key;
     private String mode;
-    private double danceability;
-    private double valence;
-    private String energy;
-    private String acousticness;
-    private String instrumentalness;
-    private String liveness;
-    private String speechiness;
+    private int danceability;
+    private int valence;
+    private int energy;
+    private int acousticness;
+    private int instrumentalness;
+    private int liveness;
+    private int speechiness;
 
     
     public Musica() {
@@ -31,12 +31,11 @@ public class Musica {
     }
 
 
-    public Musica(String nome_musica, String nome_artista, double numero_artistas, double ano_lancado,
-            double mes_lancado, double dia_lancado, double spotify_numero_playlist, double spotify_ranking,
-            double streams, double apple_numero_playlist, double apple_ranking, double deezer_numero_playlist,
-            double deezer_ranking, double shazam_ranking, double bpm, String key, String mode, double danceability,
-            double valence, String energy, String acousticness, String instrumentalness, String liveness,
-            String speechiness) {
+    public Musica(String nome_musica, String nome_artista, int numero_artistas, int ano_lancado, int mes_lancado,
+            int dia_lancado, int spotify_numero_playlist, int spotify_ranking, int streams, int apple_numero_playlist,
+            int apple_ranking, int deezer_numero_playlist, int deezer_ranking, int shazam_ranking, int bpm, String key,
+            String mode, int danceability, int valence, int energy, int acousticness, int instrumentalness,
+            int liveness, int speechiness) {
         this.nome_musica = nome_musica;
         this.nome_artista = nome_artista;
         this.numero_artistas = numero_artistas;
@@ -84,132 +83,132 @@ public class Musica {
     }
 
 
-    public double getNumero_artistas() {
+    public int getNumero_artistas() {
         return numero_artistas;
     }
 
 
-    public void setNumero_artistas(double numero_artistas) {
+    public void setNumero_artistas(int numero_artistas) {
         this.numero_artistas = numero_artistas;
     }
 
 
-    public double getAno_lancado() {
+    public int getAno_lancado() {
         return ano_lancado;
     }
 
 
-    public void setAno_lancado(double ano_lancado) {
+    public void setAno_lancado(int ano_lancado) {
         this.ano_lancado = ano_lancado;
     }
 
 
-    public double getMes_lancado() {
+    public int getMes_lancado() {
         return mes_lancado;
     }
 
 
-    public void setMes_lancado(double mes_lancado) {
+    public void setMes_lancado(int mes_lancado) {
         this.mes_lancado = mes_lancado;
     }
 
 
-    public double getDia_lancado() {
+    public int getDia_lancado() {
         return dia_lancado;
     }
 
 
-    public void setDia_lancado(double dia_lancado) {
+    public void setDia_lancado(int dia_lancado) {
         this.dia_lancado = dia_lancado;
     }
 
 
-    public double getSpotify_numero_playlist() {
+    public int getSpotify_numero_playlist() {
         return spotify_numero_playlist;
     }
 
 
-    public void setSpotify_numero_playlist(double spotify_numero_playlist) {
+    public void setSpotify_numero_playlist(int spotify_numero_playlist) {
         this.spotify_numero_playlist = spotify_numero_playlist;
     }
 
 
-    public double getSpotify_ranking() {
+    public int getSpotify_ranking() {
         return spotify_ranking;
     }
 
 
-    public void setSpotify_ranking(double spotify_ranking) {
+    public void setSpotify_ranking(int spotify_ranking) {
         this.spotify_ranking = spotify_ranking;
     }
 
 
-    public double getStreams() {
+    public int getStreams() {
         return streams;
     }
 
 
-    public void setStreams(double streams) {
+    public void setStreams(int streams) {
         this.streams = streams;
     }
 
 
-    public double getApple_numero_playlist() {
+    public int getApple_numero_playlist() {
         return apple_numero_playlist;
     }
 
 
-    public void setApple_numero_playlist(double apple_numero_playlist) {
+    public void setApple_numero_playlist(int apple_numero_playlist) {
         this.apple_numero_playlist = apple_numero_playlist;
     }
 
 
-    public double getApple_ranking() {
+    public int getApple_ranking() {
         return apple_ranking;
     }
 
 
-    public void setApple_ranking(double apple_ranking) {
+    public void setApple_ranking(int apple_ranking) {
         this.apple_ranking = apple_ranking;
     }
 
 
-    public double getDeezer_numero_playlist() {
+    public int getDeezer_numero_playlist() {
         return deezer_numero_playlist;
     }
 
 
-    public void setDeezer_numero_playlist(double deezer_numero_playlist) {
+    public void setDeezer_numero_playlist(int deezer_numero_playlist) {
         this.deezer_numero_playlist = deezer_numero_playlist;
     }
 
 
-    public double getDeezer_ranking() {
+    public int getDeezer_ranking() {
         return deezer_ranking;
     }
 
 
-    public void setDeezer_ranking(double deezer_ranking) {
+    public void setDeezer_ranking(int deezer_ranking) {
         this.deezer_ranking = deezer_ranking;
     }
 
 
-    public double getShazam_ranking() {
+    public int getShazam_ranking() {
         return shazam_ranking;
     }
 
 
-    public void setShazam_ranking(double shazam_ranking) {
+    public void setShazam_ranking(int shazam_ranking) {
         this.shazam_ranking = shazam_ranking;
     }
 
 
-    public double getBpm() {
+    public int getBpm() {
         return bpm;
     }
 
 
-    public void setBpm(double bpm) {
+    public void setBpm(int bpm) {
         this.bpm = bpm;
     }
 
@@ -234,75 +233,74 @@ public class Musica {
     }
 
 
-    public double getDanceability() {
+    public int getDanceability() {
         return danceability;
     }
 
 
-    public void setDanceability(double danceability) {
+    public void setDanceability(int danceability) {
         this.danceability = danceability;
     }
 
 
-    public double getValence() {
+    public int getValence() {
         return valence;
     }
 
 
-    public void setValence(double valence) {
+    public void setValence(int valence) {
         this.valence = valence;
     }
 
 
-    public String getEnergy() {
+    public int getEnergy() {
         return energy;
     }
 
 
-    public void setEnergy(String energy) {
+    public void setEnergy(int energy) {
         this.energy = energy;
     }
 
 
-    public String getAcousticness() {
+    public int getAcousticness() {
         return acousticness;
     }
 
 
-    public void setAcousticness(String acousticness) {
+    public void setAcousticness(int acousticness) {
         this.acousticness = acousticness;
     }
 
 
-    public String getInstrumentalness() {
+    public int getInstrumentalness() {
         return instrumentalness;
     }
 
 
-    public void setInstrumentalness(String instrumentalness) {
+    public void setInstrumentalness(int instrumentalness) {
         this.instrumentalness = instrumentalness;
     }
 
 
-    public String getLiveness() {
+    public int getLiveness() {
         return liveness;
     }
 
 
-    public void setLiveness(String liveness) {
+    public void setLiveness(int liveness) {
         this.liveness = liveness;
     }
 
 
-    public String getSpeechiness() {
+    public int getSpeechiness() {
         return speechiness;
     }
 
 
-    public void setSpeechiness(String speechiness) {
+    public void setSpeechiness(int speechiness) {
         this.speechiness = speechiness;
     }
     
     
-
 }
